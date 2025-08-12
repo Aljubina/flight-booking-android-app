@@ -1,4 +1,4 @@
-package com.and.flightbooking.Activities.Dashboad
+package com.and.flightbooking.Activities.Dashboard
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

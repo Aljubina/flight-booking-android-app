@@ -1,4 +1,4 @@
-package com.and.flightbooking.Activities.Dashboad
+package com.and.flightbooking.Activities.Dashboard
 
 import android.content.Context
 import android.app.DatePickerDialog

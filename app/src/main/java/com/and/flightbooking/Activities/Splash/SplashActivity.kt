@@ -28,7 +28,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
-import com.and.flightbooking.Activities.Dashboad.DashboardActivity
+import com.and.flightbooking.Activities.Dashboard.DashboardActivity
 import com.and.flightbooking.R
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
