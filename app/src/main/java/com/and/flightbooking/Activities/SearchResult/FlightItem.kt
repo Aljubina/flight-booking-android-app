@@ -21,7 +21,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.core.content.ContextCompat.startActivity
 import coil.compose.AsyncImage
+import com.and.flightbooking.Activities.SeatSelect.SeatSelectActivity
 import com.and.flightbooking.R
 import com.and.flightbooking.Domain.FlightModel
 
@@ -34,7 +36,10 @@ fun FlightItem(item: FlightModel, index: Int) {
             .padding(horizontal = 16.dp, vertical = 8.dp)
             .fillMaxWidth()
             .clickable {
-//                val intent = Intent(context,)
+                val intent = Intent(context, SeatSelectActivity::class.java).apply {
+                    putExtra("flight", item)
+                }
+                startActivity(context, intent, null)
             }
             .background(
                 color = colorResource(R.color.lightPurple),
